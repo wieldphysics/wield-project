@@ -1,0 +1,30 @@
+[submodule "wavestate-doc"]
+	path = wavestate-doc
+	url = git@github.com:wavestate/wavestate-doc.git
+[submodule "wavestate-test"]
+	path = wavestate-test
+	url = git@github.com:wavestate/wavestate-test.git
+[submodule "wavestate-quantum"]
+	path = wavestate-quantum
+	url = git@github.com:wavestate/wavestate-quantum.git
+[submodule "wavestate-utilities"]
+	path = wavestate-utilities
+	url = git@github.com:wavestate/wavestate-utilities.git
+[submodule "wavestate-model"]
+	path = wavestate-model
+	url = git@github.com:wavestate/wavestate-model.git
+[submodule "wavestate-devel"]
+	path = wavestate-devel
+	url = git@github.com:wavestate/wavestate-devel.git
+[submodule "wavestate-control"]
+	path = wavestate-control
+	url = git@github.com:wavestate/wavestate-control.git
+[submodule "wavestate-iirrational"]
+	path = wavestate-iirrational
+	url = git@github.com:wavestate/wavestate-iirrational.git
+[submodule "wavestate-AAA"]
+	path = wavestate-AAA
+	url = git@github.com:wavestate/wavestate-AAA.git
+[submodule "wavestate-pytest"]
+	path = wavestate-pytest
+	url = git@github.com:wavestate/wavestate-pytest.git
