@@ -28,3 +28,9 @@
 [submodule "wavestate-pytest"]
 	path = wavestate-pytest
 	url = git@github.com:wavestate/wavestate-pytest.git
+[submodule "wavestate-collection"]
+	path = wavestate-collection
+	url = git@github.com:wavestate/wavestate-collection.git
+[submodule "wavestate-bunch"]
+	path = wavestate-bunch
+	url = git@github.com:wavestate/wavestate-bunch.git
