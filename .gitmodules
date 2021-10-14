@@ -37,3 +37,6 @@
 [submodule "wavestate-LIGO-IFO"]
 	path = wavestate-LIGO-IFO
 	url = git@git.ligo.org:wavestate/wavestate-LIGO-IFO.git
+[submodule "wavestate-epics-autocas"]
+	path = wavestate-epics-autocas
+	url = git@github.com:wavestate/wavestate-epics-autocas.git
