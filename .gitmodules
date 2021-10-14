@@ -34,3 +34,6 @@
 [submodule "wavestate-bunch"]
 	path = wavestate-bunch
 	url = git@github.com:wavestate/wavestate-bunch.git
+[submodule "wavestate-LIGO-IFO"]
+	path = wavestate-LIGO-IFO
+	url = git@git.ligo.org:wavestate/wavestate-LIGO-IFO.git
