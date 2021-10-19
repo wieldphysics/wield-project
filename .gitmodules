@@ -40,3 +40,6 @@
 [submodule "wavestate-epics-autocas"]
 	path = wavestate-epics-autocas
 	url = git@github.com:wavestate/wavestate-epics-autocas.git
+[submodule "wavestate-declarative"]
+	path = wavestate-declarative
+	url = git@github.com:wavestate/wavestate-declarative.git
