@@ -5,11 +5,13 @@
 pip install -e wavestate-pytest/
 pip install -e wavestate-bunch/
 pip install -e wavestate-utilities/
+pip install -e wavestate-declarative/
 
 pip install -e wavestate-AAA/
 pip install -e wavestate-control/
 pip install -e wavestate-iirrational/
 pip install -e wavestate-quantum/
+pip install -e wavestate-epics-autocas/
 
 pip install -e wavestate-devel/
 
