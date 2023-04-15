@@ -25,9 +25,9 @@
 [submodule "wield-pytest"]
 	path = wield-pytest
 	url = git@github.com:wieldphysics/wield-pytest.git
-[submodule "wield-collection"]
-	path = wield-collection
-	url = git@github.com:wieldphysics/wield-collection.git
+[submodule "wield-namespace"]
+	path = wield-namespace
+	url = git@github.com:wieldphysics/wield-namespace.git
 [submodule "wield-bunch"]
 	path = wield-bunch
 	url = git@github.com:wieldphysics/wield-bunch.git
