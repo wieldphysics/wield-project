@@ -1,45 +1,45 @@
-[submodule "wavestate-doc"]
+[submodule "wield-doc"]
 	path = wield-doc
-	url = git@github.com:wavestate/wavestate-doc.git
-[submodule "wavestate-test"]
+	url = git@github.com:wieldphysics/wield-doc.git
+[submodule "wield-test"]
 	path = wield-test
-	url = git@github.com:wavestate/wavestate-test.git
-[submodule "wavestate-quantum"]
+	url = git@github.com:wieldphysics/wield-test.git
+[submodule "wield-quantum"]
 	path = wield-quantum
-	url = git@github.com:wavestate/wavestate-quantum.git
-[submodule "wavestate-utilities"]
+	url = git@github.com:wieldphysics/wield-quantum.git
+[submodule "wield-utilities"]
 	path = wield-utilities
-	url = git@github.com:wavestate/wavestate-utilities.git
-[submodule "wavestate-model"]
+	url = git@github.com:wieldphysics/wield-utilities.git
+[submodule "wield-model"]
 	path = wield-model
-	url = git@github.com:wavestate/wavestate-model.git
-[submodule "wavestate-devel"]
+	url = git@github.com:wieldphysics/wield-model.git
+[submodule "wield-devel"]
 	path = wield-devel
-	url = git@github.com:wavestate/wavestate-devel.git
-[submodule "wavestate-control"]
+	url = git@github.com:wieldphysics/wield-devel.git
+[submodule "wield-control"]
 	path = wield-control
-	url = git@github.com:wavestate/wavestate-control.git
-[submodule "wavestate-iirrational"]
+	url = git@github.com:wieldphysics/wield-control.git
+[submodule "wield-iirrational"]
 	path = wield-iirrational
-	url = git@github.com:wavestate/wavestate-iirrational.git
-[submodule "wavestate-AAA"]
+	url = git@github.com:wieldphysics/wield-iirrational.git
+[submodule "wield-AAA"]
 	path = wield-AAA
-	url = git@github.com:wavestate/wavestate-AAA.git
-[submodule "wavestate-pytest"]
+	url = git@github.com:wieldphysics/wield-AAA.git
+[submodule "wield-pytest"]
 	path = wield-pytest
-	url = git@github.com:wavestate/wavestate-pytest.git
-[submodule "wavestate-collection"]
+	url = git@github.com:wieldphysics/wield-pytest.git
+[submodule "wield-collection"]
 	path = wield-collection
-	url = git@github.com:wavestate/wavestate-collection.git
-[submodule "wavestate-bunch"]
+	url = git@github.com:wieldphysics/wield-collection.git
+[submodule "wield-bunch"]
 	path = wield-bunch
-	url = git@github.com:wavestate/wavestate-bunch.git
-[submodule "wavestate-LIGO-IFO"]
+	url = git@github.com:wieldphysics/wield-bunch.git
+[submodule "wield-LIGO-IFO"]
 	path = wield-LIGO-IFO
-	url = git@git.ligo.org:wavestate/wavestate-LIGO-IFO.git
-[submodule "wavestate-epics-autocas"]
+	url = git@git.ligo.org:wieldphysics/wield-LIGO-IFO.git
+[submodule "wield-epics-autocas"]
 	path = wield-epics-autocas
-	url = git@github.com:wavestate/wavestate-epics-autocas.git
-[submodule "wavestate-declarative"]
+	url = git@github.com:wieldphysics/wield-epics-autocas.git
+[submodule "wield-declarative"]
 	path = wield-declarative
-	url = git@github.com:wavestate/wavestate-declarative.git
+	url = git@github.com:wieldphysics/wield-declarative.git
