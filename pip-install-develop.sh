@@ -1,20 +1,20 @@
 #!/usr/bin/env bash
 
 #these are ordered specifically for the dependency resolution
+CMD="pip install -e $@"
 
-pip install -e wield-pytest/
-pip install -e wield-bunch/
-pip install -e wield-utilities/
-pip install -e wield-declarative/
+$CMD wield-pytest/
+$CMD wield-bunch/
+$CMD wield-utilities/
+$CMD wield-declarative/
 
-pip install -e wield-AAA/
-pip install -e wield-control/
-pip install -e wield-iirrational/
-pip install -e wield-quantum/
-pip install -e wield-epics-autocas/
+$CMD wield-control/
+$CMD wield-iirrational/
+$CMD wield-quantum/
+$CMD wield-epics-autocas/
 
-pip install -e wield-devel/
+$CMD wield-devel/
 
-pip install -e wield-doc/
-pip install -e wield-model/
-pip install -e wield-test/
+$CMD wield-doc/
+$CMD wield-model/
+$CMD wield-test/
