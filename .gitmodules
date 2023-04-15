@@ -22,9 +22,6 @@
 [submodule "wield-iirrational"]
 	path = wield-iirrational
 	url = git@github.com:wieldphysics/wield-iirrational.git
-[submodule "wield-AAA"]
-	path = wield-AAA
-	url = git@github.com:wieldphysics/wield-AAA.git
 [submodule "wield-pytest"]
 	path = wield-pytest
 	url = git@github.com:wieldphysics/wield-pytest.git

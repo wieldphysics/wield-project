@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+if [ -z "$@" ]
+then
+   echo common uses
+   echo ./submodule_foreach_release_wield \''git checkout release'\'
+   echo ./submodule_foreach_release_wield \''python -m wield.utilities.check_versions'\'
+   echo ./submodule_foreach_release_wield \''python -m build'\'
+   echo ./submodule_foreach_release_wield \''twine upload dist/*'\'
+   echo ./submodule_foreach_release_wield \''rm -r dist'\'
+   echo ./submodule_foreach_release_wield \''twine upload dist/* && rm -r dist || true'\'
+   echo ./submodule_foreach_release_wield \''git push'\'
+   echo ./submodule_foreach_release_wield \''git checkout main'\'
+   
+else
+    # the ;& does a fall-through behavior on the case
+    git submodule foreach 'case $name in wield-utilities | wield-bunch | wield-control | wield-declarative | wield-epics-autocas | wield-iirrational | wield-model | wield-collection | wield-namespace | wield-pytest) eval '"$@"' ;; *) echo "skipping" ;; esac'
+    fi
+
