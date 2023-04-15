@@ -2,19 +2,19 @@
 
 #these are ordered specifically for the dependency resolution
 
-pip install -e wavestate-pytest/
-pip install -e wavestate-bunch/
-pip install -e wavestate-utilities/
-pip install -e wavestate-declarative/
+pip install -e wield-pytest/
+pip install -e wield-bunch/
+pip install -e wield-utilities/
+pip install -e wield-declarative/
 
-pip install -e wavestate-AAA/
-pip install -e wavestate-control/
-pip install -e wavestate-iirrational/
-pip install -e wavestate-quantum/
-pip install -e wavestate-epics-autocas/
+pip install -e wield-AAA/
+pip install -e wield-control/
+pip install -e wield-iirrational/
+pip install -e wield-quantum/
+pip install -e wield-epics-autocas/
 
-pip install -e wavestate-devel/
+pip install -e wield-devel/
 
-pip install -e wavestate-doc/
-pip install -e wavestate-model/
-pip install -e wavestate-test/
+pip install -e wield-doc/
+pip install -e wield-model/
+pip install -e wield-test/
