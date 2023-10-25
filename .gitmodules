@@ -40,3 +40,6 @@
 [submodule "wield-declarative"]
 	path = wield-declarative
 	url = git@github.com:wieldphysics/wield-declarative.git
+[submodule "pygwinc"]
+	path = pygwinc
+	url = git@git.ligo.org:gwinc/pygwinc.git
