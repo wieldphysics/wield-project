@@ -13,9 +13,6 @@
 [submodule "wield-model"]
 	path = wield-model
 	url = git@github.com:wieldphysics/wield-model.git
-[submodule "wield-devel"]
-	path = wield-devel
-	url = git@github.com:wieldphysics/wield-devel.git
 [submodule "wield-control"]
 	path = wield-control
 	url = git@github.com:wieldphysics/wield-control.git
