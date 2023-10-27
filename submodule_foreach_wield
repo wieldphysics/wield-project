@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 git submodule foreach 'case $name in pygwinc) ;; *) eval '"$@"' ;; esac'

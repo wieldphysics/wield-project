@@ -1,6 +1,8 @@
 test_results/
 tresults/
 
+*-flag.txt
+
 textmat*.*
 timer.update
 .svn/
