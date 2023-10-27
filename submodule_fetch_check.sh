@@ -9,6 +9,7 @@ retVal=$?
 if [ $retVal -ne 0 ]; then
     echo "Submodules not up to date"
     rm -rf up-to-date-flag.txt
+    rm -rf currently-clean-flag.txt
 fi
 exit $retVal
 
