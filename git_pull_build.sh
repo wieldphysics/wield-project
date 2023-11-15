@@ -2,8 +2,8 @@
 
 if [ ! -f up-to-date-flag.txt ]; then
     if [ ! -f currently-clean-flag.txt ]; then
-        git pull
-        git submodule foreach 'git pull'
+        git merge
+        git submodule foreach 'git merge || true'
         ./pip-install-develop.sh --no-dependencies
         pushd wield-doc
         make fullclean

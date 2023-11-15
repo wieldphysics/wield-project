@@ -11,11 +11,17 @@ $CMD wield-declarative/
 $CMD wield-control/
 $CMD wield-iirrational/
 $CMD wield-quantum/
-$CMD wield-epics-autocas/
+
+$CMD wield-devel/
 
 $CMD wield-doc/
 $CMD wield-model/
 $CMD wield-test/
 
-$CMD wield-LIGO-IFO/
+$CMD wield-LIGO-IFO
+$CMD wield-epics-autocas
+
+$CMD wield-namespace
+
+# private repos
 $CMD pygwinc/
