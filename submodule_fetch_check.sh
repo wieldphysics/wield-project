@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 git fetch
-git submodule foreach 'git fetch'
+git submodule foreach 'git fetch || true'
 
 ./git_check_uptodate.sh && git submodule foreach '$(realpath -m --relative-to=$displaypath .)/git_check_uptodate.sh'
 
