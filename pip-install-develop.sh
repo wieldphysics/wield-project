@@ -23,9 +23,4 @@ $CMD wield-epics-autocas
 
 $CMD wield-namespace
 
-# private repos
-$CMD wield-ligo-mcculler
-$CMD wield-mcculler
-
 $CMD pygwinc/
-$CMD gquest-design/
